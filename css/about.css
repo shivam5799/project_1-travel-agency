@@ -1,0 +1,161 @@
+html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+
+}
+
+body {
+      font-family: "Helvetica Neue",sans-serif;
+      font-weight: lighter;
+
+}
+
+header {
+      width: 100%;
+      height: 97vh;
+      background: url(properties/nab.jpg) no-repeat 50% 50%;
+      background-size: cover;
+}
+
+.content {
+      width: 94%;
+      margin: 4em auto;
+      font-size: 20px;
+      line-height: 30px;
+      text-align: justify;
+      margin-bottom: 1px;
+}
+
+.logo {
+      line-height: 60px;
+      position: fixed;
+      float: left;
+      margin: 16px 46px;
+      color: #8b0000; /*white*/
+      font-weight: bold;
+      font-size: 20px;
+      letter-spacing: 2px;
+}
+
+nav {
+      position: fixed;
+      width: 100vw;
+      line-height: 60px;
+      z-index: 9999;
+}
+
+
+nav ul {
+      line-height: 60px;
+      list-style: none;
+      background: rgba(0, 0, 0, 0);
+      overflow: hidden;
+      color: #8b0000;/*white*/
+      padding: 0;
+      text-align: right;
+      margin: 0;
+      padding-right: 40px;
+      transition: 1s;
+}
+
+nav.black ul {
+      background: #000;
+}
+
+nav ul li {
+      display: inline-block;
+      padding: 16px 40px;;
+}
+
+nav ul li a {
+      text-decoration: none;
+      color: #8b0000;/*white*/
+      font-size: 16px;
+}
+
+.menu-icon {
+      line-height: 60px;
+      width: 100%;
+      background: #000;
+      text-align: right;
+      box-sizing: border-box;
+      padding: 15px 24px;
+      cursor: pointer;
+      color: #8b0000; /*white*/
+      display: none;
+}
+
+@media(max-width: 786px) {
+
+      .logo {
+            position: fixed;
+            top: 0;
+            margin-top: 16px;
+      }
+
+      nav ul {
+            max-height: 0px;
+            background: #000;
+      }
+
+      nav.black ul {
+            background: #000;
+      }
+
+      .showing {
+            max-height: 34em;
+      }
+
+      nav ul li {
+            box-sizing: border-box;
+            width: 100%;
+            padding: 24px;
+            text-align: center;
+      }
+
+      .menu-icon {
+            display: block;
+      }
+
+}
+input {
+      border-style: groove;
+      background-color: #eee;
+      }
+      .active{
+      color: #00ccff;
+      }
+       .span {
+            display:block;
+            position:absolute;
+            bottom:0;
+            left:0;
+            right:0;
+            background:#000;
+            background:rgba(0, 0, 0, 0.6);
+            color:#FFF;
+            padding:20px 5px;
+        }
+
+        #i1 {
+  display: inline-block;
+  border-radius: 60px;
+  box-shadow: 0px 0px 2px #888;
+  padding: 0.5em 0.6em;
+  color: #ff8c00;
+  background-color: #fed8b1;
+
+}
+ hr.new1 {
+  border-top: 1px solid gray;
+  margin-top: 5%;
+  width: 150vh;
+}
+
+
+
+      
+
+
+
